@@ -1,0 +1,62 @@
+.footer {
+    font-size: 16px;
+}
+.footer .container {
+    padding-bottom: 107px;
+    max-width: 1111px;
+}
+.footer__container {  /* здесь и в footer-nav__list я сначала на flex'ах делал. потом при адаптиве понял, что лучше будет переделать все через grid'ы */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 75px;
+}
+.footer a {
+    display: inline-block;
+}
+.footer-nav__list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(121px, 1fr));
+    gap: 0 75px;
+}
+.footer-nav__link {
+    font-size: 20px;
+}
+.footer-nav__link {
+    margin-bottom: 40px;
+}
+.footer__inner-item:not(:last-of-type) {
+    margin-bottom: 19px;
+}
+.footer__feedback {
+    justify-self: end;
+}
+.footer__address {
+    margin: 10px 8px 31px 0;
+    padding-left: 54px;
+    position: relative;
+    font-weight: 500;
+}
+.footer__address::before {
+    content: url(../img/logo/footer-spot.svg);
+    position: absolute;
+    top: -9px;
+    left: 0;
+    width: 46px;
+    height: 46px;
+}
+.footer__phone {
+    margin-bottom: 44.48px;
+    padding-left: 46px;
+    position: relative;
+}
+.footer__phone::before {
+    content: url(../img/logo/footer-phone.svg);
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    height: 35px;
+}
+.footer__socials {
+    padding-left: 4px;
+    gap: 32px;
+}

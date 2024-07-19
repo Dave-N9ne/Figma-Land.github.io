@@ -1,0 +1,53 @@
+.testimonials {
+    margin-bottom: 230px;
+}
+.testimonials .container {
+    max-width: 963px;
+}
+.testimonials__title {
+    margin-bottom: 60px;
+}
+.testimonials__cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px 23px;
+    align-items: start;
+}
+.testimonials__item {
+    padding: 40px;
+    border: var(--border-line) #dedede;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+.testimonials__item:nth-of-type(odd) {  /* тут скорее всего есть способ попроще сделать, ибо я полдня потратил, добавляя доп. элементы (.testimonials__item),чтобы посмотреть будет ли это работать если тут будут > 4 элементов */
+    grid-row: span 2;
+}
+.testimonials-card__name {
+    margin: 0 0 30px 63px;
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+}
+.testimonials-card__name::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -63px;
+    width: 50px;
+    height: 50px;
+}
+.testimonials-card__name-claire::before {
+    background: url(../img/logo/Testimonials-Claire\ Bell-icon.png);
+}
+.testimonials-card__name-francisco::before {
+    background: url(../img/logo/Testimonials-Francisco\ Lane-icon.png);
+}
+.testimonials-card__name-ralph::before {
+    background: url(../img/logo/Testimonials-Ralph-Fisher-icon.png);
+}
+.testimonials-card__name-jorge::before {
+    background: url(../img/logo/Testimonials-Jorge-Murphy-icon.png);
+}
+.testimonials-card__desc {
+    max-width: 320px;
+}

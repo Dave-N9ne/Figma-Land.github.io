@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Land</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container center-y">
+            <div class="header__logo">
+                <img 
+                 src="./img/logo/Figma-logo.png" 
+                 alt="Figma's logo" 
+                 class="header__img"
+                 loading="lazy"
+                >
+            </div>
+            <button id="header-burger" class="header__burger header-burger">
+                <span></span>
+            </button>
+            <nav id="header-nav" class="header__nav header-nav nav">
+                <ul class="header-nav__list nav__list flex-x">
+                    <li class="header-nav__item nav__item">
+                        <a href="#" class="header-nav__link nav__link">Home</a>
+                    </li>
+                    <li class="header-nav__item nav__item">
+                        <a href="#" class="header-nav__link nav__link">Product</a>
+                    </li>
+                    <li class="header-nav__item nav__item">
+                        <a href="#" class="header-nav__link nav__link">About</a>
+                    </li>
+                    <li class="header-nav__item nav__item">
+                        <a href="#" class="header-nav__link nav__link">Contact</a>
+                    </li>
+                    <li class="header-nav__item nav__item nav__item-login">
+                        <a href="#" class="header-nav__link nav__link">Login</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="header__btn button">Login</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container flex-y center-y">
+                <h1 class="hero__title main-title">Work at the speed of thought</h1>
+                <p class="hero__desc desc">
+                    Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+                </p>
+                <div class="hero__buttons center-full">
+                    <a href="#" class="hero__button button">Try For Free</a>
+                    <a href="#" class="hero__button button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="interface"> <!-- здесь я вовобще не понял как сделать эту секцию -->
+            <div class="interface__wrapper"></div>
+        </section>
+
+        <section class="features">
+            <div class="container features__container flex-y center-y">
+                <h2 class="features__title">FEATURES</h2>
+                <p class="features__desc desc">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+                <div class="features__content features-content flex-x">
+                    <div class="features-content__images">
+                        <div class="images__wrapper-1">
+                            <img src="./img/Features-controlpanel.webp" alt="Contorol panel's webpage" class="features-content__img1 img" loading="lazy">
+                        </div>
+                        <div class="images__wrapper-2">
+                            <img src="./img/features-PointOne.webp" alt="PointOne's webpage" class="feature-content__img2 img" loading="lazy">
+                        </div>
+                    </div>
+                    <ul class="features-content__list grid">
+                        <li class="features-content__item">
+                            <h4 class="features-content__title features-content__title-spoon-knife inner-title">A single source<br>
+                                of truth
+                            </h4>
+                            <p class="features-content__desc inner-desc">
+                                When you add work to your Slate calendar we automatically calculate useful insights 
+                            </p>
+                        </li>
+                        <li class="features-content__item">
+                            <h4 class="features-content__title features-content__title-alien inner-title">Intuitive<br>
+                                interface
+                            </h4>
+                            <p class="features-content__desc inner-desc">
+                                When you add work to your Slate calendar we automatically calculate useful insights 
+                            </p>
+                        </li>
+                        <li class="features-content__item">
+                            <h4 class="features-content__title features-content__title-infinity inner-title">Or with rules</h4>
+                            <p class="features-content__desc inner-desc">
+                                When you add work to your Slate calendar we automatically calculate useful insights 
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contents">
+            <div class="container contents__container flex-y center-y">
+                <h2 class="contents__title">Contents</h2>
+                <p class="contents__desc desc">
+                    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                </p>
+                <ul class="contents__cards flex-x center-x">
+                    <li class="contents__cards__item">
+                        <article class="contents__card contents-card card card-work flex-y center-y">
+                            <h4 class="contents-card__title card-work__title inner-title">Work</h4>
+                            <p class="contents-card__desc card-work__desc inner-desc">
+                                Ever wondered if you're too reliant on a client for work? Slate helps you identify.
+                            </p>
+                            <a href="#" class="contents-card__button card-work__button button">Sign Up</a>
+                            <img
+                             src="./img/contents-Macbook-Pro.webp"
+                             alt=""
+                             class="contents-card__img card-work__img"
+                            >
+                        </article>
+                    </li>
+                    <li class="contents__cards__item center-y">
+                        <article class="contents__card contents-card card card-design flex-y center-y">
+                            <h4 class="contents-card__title card-design__title inner-title">Design with real data</h4>
+                            <p class="contents-card__desc card-design__desc inner-desc">
+                                Ever wondered if you're too reliant on a client for work? Slate helps you identify.
+                            </p>
+                            <a href="#" class="contents-card__button card-design__button button">Try For Free</a>
+                            <img
+                             src="./img/contents-design.webp"
+                             alt=""
+                             class="contents-card__img  card-design__img"
+                            />
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="gallery"> <!-- эту секцию не трогал т.к. тут лучше сделать через JS -->
+            <div class="container gallery__container flex-y center-y">
+                <h2 class="gallery__title">Gallery</h2>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container partners__container flex-y">
+                <h2 class="partners__title">Partners</h2>
+                <p class="partners__desc desc">
+                    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                </p>
+                <div class="partners__wrapper"> <!-- тут было пиздец как сложно -->
+                    <ul class="partners__icons">
+                        <li class="partners__item">
+                            <img 
+                             src="./img/logo/AppStore-logo.png" 
+                             alt="AppStore's logotype" 
+                             class="partners__icon">
+                        </li>
+                        <li class="partners__item">
+                            <img 
+                             src="./img/logo/Apiary-logo.png" 
+                             alt="Apiary's logotype" 
+                             class="partners__icon">
+                        </li>
+                        <li class="partners__item">
+                            <img 
+                             src="./img/logo/Android-logo.png" 
+                             alt="Android's logotype" 
+                             class="partners__icon">
+                        </li>
+                        <li class="partners__item center-full">
+                            <img 
+                             src="./img/logo/Basecamp-logo.png" 
+                             alt="Basecamp's logotype" 
+                             class="partners__icon">
+                        </li>
+                        <li class="partners__item">
+                            <img 
+                             src="./img/logo/Airbnb-logo.png" 
+                             alt="Airbnb's logotype" 
+                             class="partners__icon">
+                        </li>
+                        <li class="partners__item center-full">
+                            <img 
+                             src="./img/logo/IBM-logo.png" 
+                             alt="IBM's logotype" 
+                             class="partners__icon icon-IBM"> <!-- из-за этого здоебучего элемента пришлось неплохо так попотеть -->
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="partners__button button">All Partners</a>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container testimonials__container">
+                <h2 class="testimonials__title">Testimonials</h2>
+                <ul class="testimonials__cards grid">
+                    <li class="testimonials__item">
+                        <article class="testimonials__card testimonials-card">
+                            <span class="testimonials-card__name testimonials-card__name-claire">
+                                Claire Bell<br>
+                                Designer
+                            </span>
+                            <p class="testimonials-card__desc inner-desc">
+                                Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__card testimonials-card">
+                            <span class="testimonials-card__name testimonials-card__name-francisco">
+                                Francisco Lane<br>
+                                Designer
+                            </span>
+                            <p class="testimonials-card__desc inner-desc">
+                                Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                            </p>
+                        </article>
+                    </li>
+                    
+                    <li class="testimonials__item">
+                        <article class="testimonials__card testimonials-card">
+                            <span class="testimonials-card__name testimonials-card__name-jorge">
+                                Jorge Murphy<br>
+                                Designer
+                            </span>
+                            <p class="testimonials-card__desc inner-desc">
+                                Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__card testimonials-card">
+                            <span class="testimonials-card__name testimonials-card__name-ralph">
+                                Ralph Fisher<br>
+                                Designer
+                            </span>
+                            <p class="testimonials-card__desc inner-desc">
+                                Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="onetype">
+            <div class="container onetype__container center-x">
+                <article class="onetype__article onetype-article flex-x">
+                    <div class="onetype-article__content">
+                        <h2 class="onetype-article__title">
+                            OpenType features and Variable fonts
+                        </h2>
+                        <a href="#" class="onetype-article__button button">Try For Free</a>
+                    </div>
+                    <div class="onetype-article__wrapper">
+                        <img src="./img/onetype-img.webp" alt="Figma Land's index page" class="onetype-article__img">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <nav class="footer__nav footer-nav nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item">
+                        <a href="#" class="footer-nav__link nav__link">Fingertipe</a>
+                        <ul class="footer-nav__inner-list footer-nav-inner-list footer__inner-list inner-list">
+                            <li class="footer__inner-item">
+                                <a href="" class="footer__inner-link nav__link">Home</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="" class="footer__inner-link nav__link">Examples</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="" class="footer__inner-link nav__link">Pricing</a>
+                            </li>
+                            <li class="footer__inner-item footer__last-inner-item">
+                                <a href="" class="footer__inner-link nav__link">Updates</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#" class="footer-nav__link nav__link">Resources</a>
+                        <ul class="footer-nav__inner-list footer-nav-inner-list footer__inner-list inner-list">
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Home</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Examples</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Pricing</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Updates</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#" class="footer-nav__link nav__link">About</a>
+                        <ul class="footer-nav__inner-list footer-nav-inner-list footer__inner-list inner-list">
+                            <li class="footer__inner-item">
+                                <a href="" class="footer__inner-link nav__link">Home</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Examples</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Pricing</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="#" class="footer__inner-link nav__link">Updates</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__feedback flex-y">
+                <span class="footer__address">7480 Mockingbird Hill undefined</span>
+                <a href="tel:(239) 555-0108" class="footer__phone nav__link">(239) 555-0108</a>
+                <ul class="footer__socials flex-x">
+                    <li class="footer__social footer-social social center-y"><a href="#" class="social__link nav__link"><img src="./img/logo/footer-twitter.svg" alt="Twitter's logotype" class="social__icon"></a></li>
+                    <li class="footer__social footer-social social"><a href="#" class="social__link nav__link"><img src="./img/logo/footer-facebook.svg" alt="Facebook's logotype" class="social__icon"></a></li>
+                    <li class="footer__social footer-social social"><a href="#" class="social__link nav__link"><img src="./img/logo/footer-linkedin.svg" alt="LinkedIn's logotype" class="social__icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

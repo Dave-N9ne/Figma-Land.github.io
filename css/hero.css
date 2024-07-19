@@ -1,0 +1,23 @@
+.hero {
+    margin-bottom: 35px;
+    padding-top: 213px;
+    text-align: center;
+}
+.main-title {
+    margin-bottom: 17px;
+    max-width: 729px;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.hero__desc {
+    margin-bottom: 95px;
+    max-width: 602px;
+}
+.hero__buttons {
+    gap: 35px;
+}
+.hero__button {
+    padding: 20px 40px;
+    display: inline-block;
+}

@@ -1,0 +1,75 @@
+.features {
+    margin-bottom: 346px;
+}
+.features__title {
+    margin-bottom: 35px;
+}
+.features__desc {
+    margin-bottom: 80px;
+    max-width: 602px;
+}
+.features__title, .features__desc {
+    text-align: center;
+}
+.features__content {
+    gap: 55px;
+}
+.features-content__images {
+    position: relative;
+    padding-left: 28px;
+}
+.image__wrapper1 {
+    max-width: 679px;
+}
+.features-content__img1 {
+    max-width: 100%;
+    float: inline-end;
+}
+.images__wrapper-2 {
+    position: absolute;
+    bottom: -100px;
+    right: -28px;
+    max-width: 397px;
+    z-index: 10;
+}
+.feature-content__img2 {
+    max-width: 100%;
+}
+.features-content__list {
+    padding: 20px;
+    justify-items: center;
+    align-items: end;
+}
+.features-content__title {
+    margin-bottom: 10px;
+    position: relative;
+}
+.features-content__title-spoon-knife {
+    margin-left: 42px;
+}
+.features-content__title-spoon-knife::before{
+    content: url(../img/logo/features-spoon&knife-logo.svg);
+    left: -42px;
+}
+.features-content__title-alien {
+    margin-left: 44px;
+}
+.features-content__title-alien::before {
+    content: url(../img/logo/features-alien-logo.svg);
+    left: -44px;
+}
+.features-content__title-infinity {
+    margin-left: 52px;
+}
+.features-content__title-infinity::before {
+    content: url(../img/logo/features-infinity-logo.svg);
+    top: 0;
+    left: -52px;
+}
+.features-content__title::before {
+    position: absolute;
+    top: 6px;
+}
+.features-content__desc {
+    max-width: 269px;
+}

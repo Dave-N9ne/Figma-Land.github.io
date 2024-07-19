@@ -1,0 +1,10 @@
+:root {
+  --dark-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+  --border-line: 1px solid;
+  --light-color: #fff;
+  --dark-background: #181818;
+  --dark-text-color: #5c5c5c;
+  --blue-color: #4452fe;
+  --dark-background-onetype: #343434;
+  --hover-transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,40 @@
+.partners {
+    margin-bottom: 210px;
+}
+.partners .container {
+    max-width: 911px;
+    align-items: center;
+}
+.partners__title {
+    margin-bottom: 10px;
+}
+.partners__desc {
+    margin-bottom: 60px;
+    max-width: 591px;
+}
+.partners__wrapper {
+    margin-bottom: 50px;
+    align-self: stretch;
+}
+.partners__icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, auto));
+    gap: 50px 74px;
+    justify-items: start;
+    align-items: center;
+}
+.partners__item {
+    height: 60px;
+}
+.partners__icon {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.icon-IBM {
+    min-width: 83px;
+    min-height: 33px;
+}
+.partners__button {
+    padding: 13.5px 40px;
+}

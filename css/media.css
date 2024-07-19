@@ -1,0 +1,547 @@
+@media (max-width: 1399.98px) {
+  /* --------- ONETYPE --------- */
+
+  .onetype-article__content {
+    margin-left: 30px;
+}
+
+/* --------- /ONETYPE --------- */
+}
+@media (max-width: 1199.98px) {
+
+  /* --------- FEATURES --------- */
+
+  .features {
+    margin-bottom: 212px;
+}
+  .features__content {
+    padding: 0 36px;
+    flex-direction: column;
+    gap: 200px;
+  }
+  .features-content__images {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .images__wrapper-2 {
+    right: 50%;
+    bottom: 0;
+    width: 71.6%;
+    transform: translate(50%, 50%);
+  }
+  .features-content__img2 {
+    width: 100%;
+  }
+  .features-content__list {
+    padding: 0;
+  }
+  .features-content__list {
+    justify-items: start;
+  }
+  .features-content__item:nth-of-type(2) {
+    justify-self: end;
+  }
+
+  /* --------- /FEATURES --------- */
+
+  /* --------- ONETYPE --------- */
+
+  .onetype-article__wrapper {
+    padding: 0;
+  }
+  .onetype-article__img {
+    max-width: 450px;
+  }
+
+  /* --------- /ONETYPE --------- */
+}
+@media (max-width: 991.98px) {
+
+  /* --------- HEADER --------- */
+
+  .header__logo {
+    max-width: 100%;
+  }
+  .header__img {
+    height: 50px;
+  }
+
+  /* --------- HEADER__BURGER-MENU --------- */
+
+  .header__burger {   /* решил для разнообразия потратить еще пару дней на бургер меню */
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 10;
+    border: none;
+    background-color: #181818;
+  }
+  .header__burger::before,
+  .header__burger::after,
+  .header__burger span {
+    transition: all 0.3s ease 0s;
+    height: 10%;
+  }
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger span {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    background-color: #fff;
+    transform: scale(1) translate(0, -50%);
+  }
+  .header__burger._active span {
+    transform: scale(0) translate(0, -50%);
+  }
+  .header__burger._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+  .header__burger._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+  }
+  .header__nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-background);
+    transition: left 0.3s ease 0s;
+    transform: translate(-100%, 0);
+    overflow: auto;
+  }
+  .header__nav._active {
+    left: 0;
+    transform: translate(0, 0);
+  }
+  .header-nav__list {
+    padding: 100px 40px 20px;
+    display: block;
+  }
+  .header-nav__item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+  .header-nav__link {
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  /* --------- /HEADER__BURGER-MENU --------- */
+  
+  .header__btn {
+    display: none;
+  }
+  .nav__item-login {
+    display: block;
+  }
+
+  /* --------- /HEADER --------- */
+
+  /* --------- CONTENTS --------- */
+
+  .contents__desc {
+    max-width: 476px;
+  }
+  .contents__cards {
+    flex-direction: column;
+  }
+
+  /* --------- /CONTENTS --------- */
+
+  /* --------- ONETYPE --------- */
+
+  .onetype {
+    background-color: #1e1e1e;
+  }
+  .onetype .container {
+    padding: 0 49.5px;
+  }
+  .onetype__article {  /* у меня не получилось здесь по макету затащить картинку. пробовал через z-index сделать, но безуспешно */
+    flex-direction: column;
+    align-items: center;
+    gap: 104px;
+    border-radius: 0;
+    height: auto;
+    background-color: inherit;
+    box-shadow: none;
+  }
+  .onetype-article__content {
+    margin: 0;
+    padding-top: 104px;
+    text-align: center;
+  }
+  .onetype-article__wrapper {
+    max-width: 450px;
+    max-height: 450px;
+  }
+  .onetype-article__img {
+    width: 450px;
+    height: 100%;
+  }
+
+  /* --------- /ONETYPE --------- */
+}
+
+  /* --------- FOOTER --------- */
+
+@media (max-width: 870px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "nav"
+                         "feedback";
+     gap: 75px;
+  }
+  .footer__nav {
+    grid-area: nav;
+  }
+  .footer__feedback {
+    grid-area: feedback;
+    justify-self: start;
+  }
+}
+@media (max-width: 844px) {
+  .partners__item:nth-of-type(6) {
+    grid-column: span 2;
+    width: 83px;
+    height: 33px;
+  }
+}
+
+  /* --------- /FOOTER --------- */
+
+@media (max-width: 767.98px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  /* --------- HEADER --------- */
+
+  .header .container {
+    padding: 30px 40px;
+    height: 20px;
+  }
+
+  /* --------- /HEADER --------- */
+
+  /* --------- HERO --------- */
+
+  .main-title {
+    font-size: 52px;
+  }
+
+  /* --------- /HERO --------- */
+
+  /* --------- FEATURES --------- */
+
+  .features__content {
+    padding: 0;
+  }
+
+  /* --------- /FEATURES --------- */
+
+  /* --------- CONTENTS --------- */
+
+  .contents .container {
+    padding: 0 100.5px;
+  }
+  .card-work {
+    padding-left: 25.48px;
+    padding-right: 25.48px;
+  }
+  .card-design {
+      padding-left: 36.5px;
+      padding-right: 36.5px;
+  }
+
+  /* --------- /CONTENTS --------- */
+
+  /* --------- FEATURES --------- */
+
+  .partners .container {
+    padding: 0 100px;
+  }
+  .partners__icons {
+    gap: 50px;
+  }
+
+  /* --------- /FEATURES --------- */
+
+  /* --------- TESTIMONIALS --------- */
+
+  .testimonials .container {
+    padding: 0 max(calc((100vw - 352px)/2), 20px);
+  }
+  .testimonials__cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 23px;
+  }
+  .testimonials__item:nth-of-type(odd) {
+    grid-row: span 1;
+  }
+  .testimonials__item:nth-of-type(3) {
+    order: 4;
+  }
+  .testimonials-card__desc {
+    max-width: 244px;
+  }
+
+  /* --------- /TESTIMONIALS --------- */
+
+  /* --------- ONETYPE --------- */
+
+  .onetype {
+    margin-bottom: 208px;
+  }
+
+  /* --------- /ONETYPE --------- */
+
+  /* --------- FOOTER --------- */
+
+  .footer .container {
+    padding: 0 40px;
+  }
+
+  /* --------- /FOOTER --------- */
+}
+@media (max-width: 632px) {
+
+  /* --------- FEATURES --------- */
+
+  .features .container {
+      padding: 0 20px;
+  }
+  .features__title {
+    margin-bottom: 27px;
+  }
+  .features__desc {
+    margin-bottom: 27px;
+    max-width: 431px;
+  }
+  .features__content {
+    gap: 143px;
+  }
+  .images__wrapper-1 {
+    max-width: 324px;
+  }
+  .features-content__list {
+    justify-items: center;
+  }
+  .features-content__item:nth-of-type(2) {
+    justify-self: center;
+  }
+
+  /* --------- /FEATURES --------- */
+
+  /* --------- PARTNERS --------- */
+
+  .partners__item:nth-of-type(6) {
+    grid-column: span 1;
+  }
+  .partners__icons {
+    justify-items: center;
+  }
+
+  /* --------- /PARTNERS --------- */
+}
+
+  /* --------- FOOTER --------- */
+
+@media (max-width: 600px) {
+  .footer .container {
+    padding: 0 20px 107px;
+    max-width: 319px;
+  }
+  .footer__container, .footer-nav__list {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+  .footer__container {
+    grid-template-rows: 1fr 190px;
+  }
+  .footer-nav__list {
+    gap: 75px;
+  }
+}
+
+  /* --------- /FOOTER --------- */
+
+@media (max-width: 575.98px) {
+
+  /* --------- HEADER --------- */
+
+  .header {
+    margin-bottom: 57px;
+  }
+
+  /* --------- /HEADER --------- */
+
+  /* --------- HERO --------- */
+
+  .hero {
+    padding-top: 157px;
+}
+  .main-title {
+    font-weight: 400;
+    line-height: 1.19231;
+    max-width: 304px;
+  }
+  .hero__desc {
+    margin-bottom: 67px;
+    max-width: 402px;
+  }
+  .hero__buttons {
+    flex-direction: column;
+    gap: 21px;
+  }
+
+  /* --------- /HERO --------- */
+
+  /* --------- CONTENTS --------- */
+
+  .contents-card__button {
+    font-size: 15px;
+  }
+
+  /* --------- /CONTENTS --------- */
+
+  /* --------- ONETYPE --------- */
+
+
+  .onetype-article__title {
+    max-width: 356px;
+  }
+  /* --------- /ONETYPE --------- */
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 45px;
+  }
+  .contents .container, 
+  .partners .container {
+    padding: 0 20px;
+  }
+
+  /* --------- PARTNERS --------- */
+
+  .partners .container {
+    max-width: 911px;
+  }
+  .partners__desc {
+    margin-bottom: 45px;
+    max-width: 230px;
+  }
+  .partners__icons {
+    grid-template-columns: repeat(3, 45px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 35px;
+  }
+  .partners__item {
+    height: 45px;
+}
+  .partners__item:nth-of-type(6) {
+   justify-self: center;
+  }
+
+  /* --------- /PARTNERS --------- */
+
+  /* --------- TESTIMONIALS --------- */
+
+  .testimonials__title {
+    margin-bottom: 45px;
+    font-size: 45px;
+  }
+  .testimonials__item {
+    padding: 30px;
+  }
+  .testimonials-card__desc {
+    font-size: 14px;
+  }
+
+  /* --------- /TESTIMONIALS --------- */
+
+  /* --------- ONETYPE --------- */
+
+  .onetype .container {
+    padding: 0 20px;
+  }
+  .onetype__article {
+    gap: 70px;
+  }
+  .onetype-article__content {
+    padding-top: 52px;
+  }
+  .onetype-article__img {
+    max-width: 290px;
+  }
+
+  /* --------- /ONETYPE --------- */
+}
+@media (max-width: 460px) {
+    .desc {
+      font-size: 16px;
+    }
+    .inner-desc {
+      font-size: 14px;
+    }
+    .inner-title {
+      font-size: 18px;
+    }
+
+    /* --------- HERO --------- */
+
+    .main-title {
+      font-size: 47px;
+    }
+
+    /* --------- /HERO --------- */
+
+    /* --------- FOOTER --------- */
+
+    .footer__container, .footer-nav__list {
+      justify-items: center;
+      text-align: center;
+    }
+    .footer-nav__list {
+      grid-template-columns: 121px;
+      text-align: center;
+    }
+    .footer__address{
+      padding-left: 35px;
+    }
+    .footer__phone {
+      padding-left: 0px;
+    }
+    .footer__phone::before {
+      left: 15px;
+    }
+    .footer__socials {
+      padding-left: 0;
+      justify-content: center;
+      gap: 45px;
+    }
+    
+    /* --------- /FOOTER --------- */
+}

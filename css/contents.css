@@ -1,0 +1,70 @@
+.contents {
+    margin-bottom: 210px;
+    text-align: center;
+}
+.contents__title {
+    margin-bottom: 10px;
+}
+.contents__desc {
+    margin-bottom: 44px;
+    max-width: 591px;
+}
+.contents__cards {
+    gap: 33px;  
+}
+.contents__card {
+    padding: 50px 0 40px;
+    border: 1px solid #d3d3d3;
+    background-color: var(--light-color);
+    box-shadow: var(--dark-shadow);
+    border-radius: 10px;
+    max-width: 476px;
+    color: var(--dark-text-color)
+}
+.card-work {
+    padding-left: 35.44px;
+    padding-right: 35.44px;
+}
+.card-design {
+    padding-left: 48.5px;
+    padding-right: 48.5px;
+}
+.contents-card__title {
+    margin-bottom: 30px;
+    color: #000;
+}
+.contents-card__desc {
+    max-width: 288px;
+}
+.card-work__desc {
+    margin-bottom: 67px;
+}
+.card-design__desc {
+    margin-bottom: 40px;
+}
+.contents-card__button {
+    padding: 13.5px 46px;
+    background-color: var(--blue-color);
+    color: var(--light-color);
+}
+.contents-card__button.button:hover {
+    background-color: var(--light-color);
+    color: var(--blue-color);
+}
+.contents-card__button.button:active {
+    background-color: var(--dark-background);
+    border: var(--border-line) var(--dark-background);
+    color: var(--light-color);
+}
+.card-work__button {
+    margin-bottom: 57px;
+}
+.card-design__button {
+    margin-bottom: 30px;
+}
+.contents-card__img {
+    max-width: 100%;
+}
+.card-design__img {
+    border-radius: 14px;
+}
