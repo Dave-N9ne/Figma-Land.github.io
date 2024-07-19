@@ -141,10 +141,12 @@
   .header-nav__item:not(:last-child) {
     margin-bottom: 18px;
   }
+  .header-nav__item:nth-last-child(2) {
+    margin-bottom: 36px;
+  }
   .header-nav__link {
     font-size: 20px;
     line-height: 1.1;
-    text-transform: uppercase;
   }
 
   /* --------- /HEADER__BURGER-MENU --------- */
