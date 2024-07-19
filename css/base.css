@@ -73,7 +73,7 @@ h2 + p, h2 {
     box-shadow: var(--dark-shadow);
 }
 .button:hover {
-    transition: 0.2s var(--hover-transition);
+    transition: var(--hover-transition);
     border: var(--border-line) var(--blue-color);
     background-color: var(--blue-color);
 }
