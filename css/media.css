@@ -1,4 +1,33 @@
 @media (max-width: 1399.98px) {
+  /* --------- FEATURES --------- */
+
+  .features-content__images {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .images__wrapper-1 {
+    max-width: 500px;
+  }
+  .images__wrapper-2 {
+    right: 50%;
+    bottom: 0;
+    width: 71.6%;
+    transform: translate(50%, 50%);
+  }
+  .features-content__list {
+    padding: 0;
+  }
+  .features-content__list {
+    justify-items: start;
+  }
+  .features-content__item:nth-of-type(2) {
+    justify-self: end;
+  }
+
+  /* --------- /FEATURES --------- */
+
   /* --------- ONETYPE --------- */
 
   .onetype-article__content {
@@ -13,36 +42,39 @@
 
   .features {
     margin-bottom: 212px;
-}
+  }
   .features__content {
     padding: 0 36px;
     flex-direction: column;
     gap: 200px;
   }
-  .features-content__images {
+  .images__wrapper-1 {
+    max-width: 590px;
+  }
+  /* .features-content__images {
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
   .images__wrapper-2 {
-    right: 50%;
+    /* right: 50%;
     bottom: 0;
     width: 71.6%;
-    transform: translate(50%, 50%);
+    transform: translate(50%, 50%); */
   }
-  .features-content__img2 {
+  /* .features-content__img2 {
     width: 100%;
-  }
-  .features-content__list {
+  } */
+  /* .features-content__list {
     padding: 0;
-  }
-  .features-content__list {
+  } */
+  /* .features-content__list {
     justify-items: start;
-  }
-  .features-content__item:nth-of-type(2) {
+  } */
+  /* .features-content__item:nth-of-type(2) {
     justify-self: end;
-  }
+  } */
 
   /* --------- /FEATURES --------- */
 
@@ -126,7 +158,7 @@
     width: 100%;
     height: 100%;
     background-color: var(--dark-background);
-    transition: left 0.3s ease 0s;
+    transition: 0.3s ease 0s;
     transform: translate(-100%, 0);
     overflow: auto;
   }
@@ -159,6 +191,21 @@
   }
 
   /* --------- /HEADER --------- */
+
+  /* --------- FEATURES --------- */
+
+  .images__wrapper-1 {
+    max-width: 550px;
+  }
+  .features__content {
+    padding: 0;
+  }
+  .features-content__list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 20px;
+  }
+
+  /* --------- /FEATURES --------- */
 
   /* --------- CONTENTS --------- */
 
@@ -257,9 +304,9 @@
 
   /* --------- FEATURES --------- */
 
-  .features__content {
+  /* .features__content {
     padding: 0;
-  }
+  } */
 
   /* --------- /FEATURES --------- */
 

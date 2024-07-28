@@ -63,6 +63,7 @@ h2 + p, h2 {
 }
 .nav__link:hover {
   opacity: 0.85;
+  text-decoration: underline 3px;
 }
 .button {
     font-size: 17px;
@@ -71,9 +72,9 @@ h2 + p, h2 {
     display: inline-block;
     border: 1px solid var(--light-color);
     box-shadow: var(--dark-shadow);
+    transition: var(--hover-transition);
 }
 .button:hover {
-    transition: var(--hover-transition);
     border: var(--border-line) var(--blue-color);
     background-color: var(--blue-color);
 }
