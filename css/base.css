@@ -62,8 +62,8 @@ h2 + p, h2 {
   font-weight: 500;
 }
 .nav__link:hover {
-  opacity: 0.85;
-  text-decoration: underline 3px;
+  /* opacity: 0.85; */
+  text-decoration: underline 2.5px var(--blue-color);
 }
 .button {
     font-size: 17px;

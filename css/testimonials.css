@@ -19,9 +19,6 @@
     font-size: 16px;
     text-align: left;
 }
-.testimonials__item:nth-of-type(odd) {  /* тут скорее всего есть способ попроще сделать, ибо я полдня потратил, добавляя доп. элементы (.testimonials__item),чтобы посмотреть будет ли это работать если тут будут > 4 элементов */
-    grid-row: span 2;
-}
 .testimonials-card__name {
     margin: 0 0 30px 63px;
     display: inline-block;
