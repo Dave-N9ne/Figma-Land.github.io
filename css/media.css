@@ -294,6 +294,32 @@
 
   /* --------- /CONTENTS --------- */
 
+  /* --------- GALLERY --------- */
+
+  .gallery__desc {
+    max-width: 395px;
+  }
+  .swiper {
+    width: clamp(225px, 100%, 395px);
+  }
+  .swiper-slide_hidden {
+    display: initial;
+  }
+  .gallery__flex {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .flex-element,
+  .flex-element_wide {
+    max-width: initial;
+  }
+  .flex-img {
+    border-radius: 0;
+  }
+
+  /* --------- /GALLERY --------- */
+
   /* --------- FEATURES --------- */
 
   .partners .container {
@@ -428,6 +454,11 @@
   }
 
   /* --------- /HERO --------- */
+
+  .contents,
+  .gallery {
+    margin-bottom: 150px;
+  }
 
   /* --------- CONTENTS --------- */
 

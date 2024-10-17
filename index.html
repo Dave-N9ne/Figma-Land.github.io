@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Land</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
@@ -154,6 +155,75 @@
         <section class="gallery"> <!-- эту секцию не трогал т.к. тут лучше сделать через JS -->
             <div class="container gallery__container flex-y center-y">
                 <h2 class="gallery__title">Gallery</h2>
+                <p class="gallery__desc desc">
+                    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                </p>
+                <div class="gallery__swiper gallery-swiper swiper">
+                    <ul class="gallery__flex gallery-flex swiper-wrapper">
+                        <li class="gallery-flex__element flex-element swiper-slide">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card.webp" 
+                             alt="device">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 2.webp" 
+                             alt="tablet">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 3.webp" 
+                             alt="people talking to each other">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 4.webp" 
+                             alt="desc">
+                        </li>
+                        <li class="gallery-flex__element flex-element flex-element_wide swiper-slide">
+                            <img
+                             class="flex-img flex-img_wide swiper-img swiper-img_wide" 
+                             src="./img/card 5.webp" 
+                             alt="code showing on laptop screen">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 6.webp" 
+                             alt="tablet with a keyboard">
+                        </li>
+                        <li class="gallery-flex__element flex-element flex-element_wide swiper-slide">
+                            <img
+                             class="flex-img flex-img_wide swiper-img swiper-img_wide" 
+                             src="./img/card 7.webp" 
+                             alt="camera">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide swiper-slide_hidden">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 8.webp" 
+                             alt="headphones">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide swiper-slide_hidden">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 9.webp" 
+                             alt="person typing">
+                        </li>
+                        <li class="gallery-flex__element flex-element swiper-slide swiper-slide_hidden">
+                            <img
+                             class="flex-img swiper-img" 
+                             src="./img/card 10.webp" 
+                             alt="folding phone">
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <a href="#" class="gallery__button button">See more</a>
             </div>
         </section>
         <section class="partners">
@@ -341,7 +411,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
