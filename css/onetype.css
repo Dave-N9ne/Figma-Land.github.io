@@ -31,10 +31,6 @@
     background-color: var(--blue-color);
     border:var(--border-line) var(--blue-color);
 }
-.onetype-article__button.button:hover {
-    background-color: var(--light-color);
-    color: var(--blue-color)
-}
 .onetype-article__button.button:active {
     background-color: inherit;
     border: var(--border-line) var(--dark-background-onetype);

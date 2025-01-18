@@ -1,3 +1,40 @@
+@media (hover: hover) {
+  .nav__link:hover {
+    text-decoration: underline 2px var(--blue-color);
+    text-underline-offset: 4px;
+  }
+  .button:hover {
+    border: var(--border-line) var(--blue-color);
+    background-color: var(--blue-color);
+  }
+  .contents-card__button:hover {
+    background-color: var(--light-color);
+    color: var(--blue-color);
+  }
+  .onetype-article__button:hover {
+    background-color: var(--light-color);
+    color: var(--blue-color)
+  }
+}
+@media (hover: none) {
+  .nav__link:active {
+    text-decoration: underline 2px var(--blue-color);
+    text-underline-offset: 4px;
+  }
+  .button:active {
+    border: var(--border-line) var(--blue-color);
+    background-color: var(--blue-color);
+  }
+  .contents-card__button:active {
+    background-color: var(--light-color);
+    color: var(--blue-color);
+  }
+  .onetype-article__button:active {
+    background-color: var(--light-color);
+    color: var(--blue-color)
+  }
+}
+
 @media (max-width: 1399.98px) {
   /* --------- FEATURES --------- */
 

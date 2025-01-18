@@ -47,10 +47,6 @@
     background-color: var(--blue-color);
     color: var(--light-color);
 }
-.contents-card__button.button:hover {
-    background-color: var(--light-color);
-    color: var(--blue-color);
-}
 .contents-card__button.button:active {
     background-color: var(--dark-background);
     border: var(--border-line) var(--dark-background);
