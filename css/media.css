@@ -239,7 +239,7 @@
   .onetype .container {
     padding: 0 49.5px;
   }
-  .onetype__article {  /* у меня не получилось здесь по макету затащить картинку. пробовал через z-index сделать, но безуспешно */
+  .onetype__article { 
     flex-direction: column;
     align-items: center;
     gap: 104px;
@@ -387,6 +387,14 @@
 
   .onetype {
     margin-bottom: 208px;
+  }
+  .onetype-article__wrapper {
+    transform: translate(0, 3%);
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 97%);
+  }
+  .onetype-article__img {
+    max-width: inherit;
+    max-width: inherit;
   }
 
   /* --------- /ONETYPE --------- */
