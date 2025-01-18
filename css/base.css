@@ -60,9 +60,6 @@ h2 + p, h2 {
   font-size: 16px;
   font-weight: 500;
 }
-.nav__link:hover {
-  text-decoration: underline 2.5px var(--blue-color);
-}
 .button {
     font-size: 17px;
     font-weight: 500;
@@ -71,10 +68,6 @@ h2 + p, h2 {
     border: 1px solid var(--light-color);
     box-shadow: var(--dark-shadow);
     transition: var(--hover-transition);
-}
-.button:hover {
-    border: var(--border-line) var(--blue-color);
-    background-color: var(--blue-color);
 }
 .button:active {
   background-color: inherit;
